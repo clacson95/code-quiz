@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <!-- Link to highscores -->
+    <a href="highScores.html">View Highscores</a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+        <!-- Div for timer -->
+        <div id="currentTime"></div>
+        <!-- Div for quiz content -->
+        <div id="questionsDiv">
+            <h1>Coding Quiz</h1>
+            <p>Answer the following questions within the time limit. Your score is determined by the amount of time you have left. Incorrect answers will reduce your score/time by 10.</p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="startTimer">Start Quiz</button>
+        </div>
+
+    </div>
+
+
+    <script src="questions.js"></script>
+</body>
+</html>
