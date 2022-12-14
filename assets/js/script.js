@@ -1,5 +1,64 @@
+// ************************************************
+//    
+//     [Table of Contents]
+//
+//     - References to Elements
+//     - Quiz Questions
+//     - Functions
+//     - Event Listeners
+//
+//
+// ************************************************
+
+
+// ======================
+// References to Elements
+// ======================
+
+// timer 
+var timer = document.getElementById("timer");
+var timeLeft = document.getElementById("timeLeft");
+var timesUp = document.getElementById("timesUp");
+
+// quiz box
+var startDiv = document.getElementById("start");
+var startQuizBtn = document.getElementById("start-quiz-button");
 
 // quiz questions
+var questionDiv = document.getElementById("questionDiv");
+var questionTitle = document.getElementById("questionTitle");
+var choiceA = document.getElementById("btn0");
+var choiceB = document.getElementById("btn1");
+var choiceC = document.getElementById("btn2");
+var choiceD = document.getElementById("btn3");
+var answerCheck = document.getElementById("answerCheck");
+
+// results
+var summary = document.getElementById("summary");
+var submitInitialBtn = document.getElementById("submitInitialBtn");
+var initialInput = document.getElementById("initialInput");
+
+// highscores
+var highScoreSection = document.getElementById("highScoreSection");
+var finalScore = document.getElementById("finalScore");
+
+// other
+var goBackBtn = document.getElementById("goBackBtn");
+var clearHighScoreBtn = document.getElementById("clearHighScoreBtn"); 
+var viewHighScore = document.getElementById("viewHighScore");
+var listOfHighScores = document.getElementById("listOfHighScores");
+
+// values
+var correctAns = 0;
+var questionNum = 0;
+var scoreResult;
+var questionIndex = 0;
+
+
+// ==============
+// Quiz Questions
+// ==============
+
 const questions = [
     {
         question: "Which of the following keywords is used to define a variable in JavaScript?",
@@ -9,12 +68,12 @@ const questions = [
     {
         question: "Which built-in method returns the calling string value converted to upper case?",
         choices: ["a. toUpperCase()", "b. toUpper()", "c. changeCase(case)", "d. parentheses"],
-        answer: "c. quotes"
+        answer: "a. toUpperCase()"
     },
     {
-        question: "Arrays in JavaScript can be used to store _____.",
-        choices: ["a. numbers and strings", "b. other arrays", "c. booleans", "d. all of the above"],
-        answer: "b. other arrays"
+        question: "A ____ represents a logical entity and can only have two values: true or false.",
+        choices: ["a. string", "b. boolean", "c. number", "d. none of the above"],
+        answer: "b. boolean"
     },
     {
         question: "To see if two variables are equal in an if / else statement you would use ____.",
