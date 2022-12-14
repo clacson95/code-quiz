@@ -3,7 +3,8 @@
 ## Description
 This application is a quiz that tests users on basic knowledge regarding web development. Through the use of HTML and JavaScript, this application allows users to answer multiple choice questions and earn a score depending on their performance that can be recorded in the Highscores page via local storage.
 
-This application has been deployed to GitHub Pages: ### [Deployed Application](https://clacson95.github.io/code-quiz/)
+This application has been deployed to GitHub Pages: 
+### [Deployed Application](https://clacson95.github.io/code-quiz/)
 
 ## Table of Contents
 * [Usage](#usage)
