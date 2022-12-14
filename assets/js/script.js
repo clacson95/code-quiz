@@ -173,7 +173,7 @@ function chooseC() { checkAnswer(2); }
 
 function chooseD() { checkAnswer(3); }
 
-// when all questions are answered or timer reaches 0, the quiz ends
+// quiz ends when all questions are answered or timer reaches 0
 function gameOver() {
     summary.style.display = "block";
     questionDiv.style.display = "none";
