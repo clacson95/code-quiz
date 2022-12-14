@@ -183,10 +183,6 @@ function gameOver() {
 
     // show final score
     finalScore.textContent = correctAns;
-
-    // reset values to 0
-    correctAns = 0;
-    questionIndex = 0;
 }
 
 // enter initials to save highscore in local storage
@@ -227,6 +223,11 @@ function storeHighScores(event) {
     var scoresArrayString = JSON.stringify(scoresArray);
     window.localStorage.setItem("high scores", scoresArrayString);
     
+    // reset values to 0
+    correctAns = 0;
+    questionIndex = 0;
+    answerCheck.textContent = "";
+
     // show current highscores
     showHighScores();
 }
