@@ -6,6 +6,11 @@ This application is a quiz that tests users on basic knowledge regarding web dev
 This application has been deployed to GitHub Pages: 
 ### [Deployed Application](https://clacson95.github.io/code-quiz/)
 
+![CodingQuiz1](https://user-images.githubusercontent.com/108302822/207964227-41a008f3-19eb-42ac-b5db-fd087c28c35b.png)
+![CodingQuiz2](https://user-images.githubusercontent.com/108302822/207964256-db82b993-4d0c-4f57-a71a-b6ef710d1840.png)
+![CodingQuiz3](https://user-images.githubusercontent.com/108302822/207964272-e69e49e6-6a8a-4d74-a234-51327f8891bd.png)
+![CodingQuiz4](https://user-images.githubusercontent.com/108302822/207964280-46f8332f-1170-423b-bf8d-3adea1d9cfe7.png)
+
 ## Table of Contents
 * [Usage](#usage)
 * [License](#license)
@@ -16,7 +21,9 @@ This application has been deployed to GitHub Pages:
 There are two methods to use this application:
 
 1. Use the link above to access the deployed application. 
-2. Alternatively, you can fork the repository, clone the repository, or download the ZIP file to access the code for yourself. This will require you to have a text editor. I recommend Visual Studio Code, but there are a plethora of other options available.
+2. Alternatively, you can fork the repository, clone the repository, or download the ZIP file to access/change the code. This will require you to have a text editor. I recommend Visual Studio Code, but there are a plethora of other options available.
+
+Once running the application, click the "Start Quiz" button to begin the quiz, and answer the questions one by one. Once all questions are answered or the time runs out, you will be asked to enter your initials and click the Submit button. You can then go back to the starting screen and take the quiz again, or clear the current highscores. A "Highscores" button in the top left will allow you to review the current highscores at any point, although doing so during the quiz will forfeit your current progress.
 
 ## License
 
