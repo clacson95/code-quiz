@@ -22,7 +22,7 @@ There are two methods to use this application:
 1. Use the link above to access the deployed application. 
 2. Alternatively, you can fork the repository, clone the repository, or download the ZIP file to access/change the code. This will require you to have a text editor. I recommend Visual Studio Code, but there are a plethora of other options available.
 
-Once running the application, click the "Start Quiz" button to begin the quiz, and answer the questions one by one. Once all questions are answered or the time runs out, you will be asked to enter your initials and click the Submit button. You can then go back to the starting screen and take the quiz again, or clear the current highscores. A "Highscores" button in the top left will allow you to review the current highscores at any point, although doing so during the quiz will forfeit your current progress.
+Once running the application, click the "Start Quiz" button to begin the quiz, and answer the questions one by one. Once all questions are answered or the time runs out, you will be asked to enter your initials and click the Submit button. You can then go back to the starting screen and take the quiz again, or clear the current high scores. A "View High Scores" button in the top left will allow you to review the current high scores at any point, although doing so during the quiz will forfeit your current progress.
 
 ## License
 
