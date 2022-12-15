@@ -6,6 +6,7 @@ This application is a quiz that tests users on basic knowledge regarding web dev
 This application has been deployed to GitHub Pages: 
 ### [Deployed Application](https://clacson95.github.io/code-quiz/)
 
+## Screenshots
 ![CodingQuiz1](https://user-images.githubusercontent.com/108302822/207964227-41a008f3-19eb-42ac-b5db-fd087c28c35b.png)
 ![CodingQuiz2](https://user-images.githubusercontent.com/108302822/207964256-db82b993-4d0c-4f57-a71a-b6ef710d1840.png)
 ![CodingQuiz3](https://user-images.githubusercontent.com/108302822/207964272-e69e49e6-6a8a-4d74-a234-51327f8891bd.png)
