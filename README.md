@@ -9,7 +9,6 @@ This application has been deployed to GitHub Pages:
 ![CodingQuiz1](https://user-images.githubusercontent.com/108302822/207964227-41a008f3-19eb-42ac-b5db-fd087c28c35b.png)
 ![CodingQuiz2](https://user-images.githubusercontent.com/108302822/207964256-db82b993-4d0c-4f57-a71a-b6ef710d1840.png)
 ![CodingQuiz3](https://user-images.githubusercontent.com/108302822/207964272-e69e49e6-6a8a-4d74-a234-51327f8891bd.png)
-![CodingQuiz4](https://user-images.githubusercontent.com/108302822/207964280-46f8332f-1170-423b-bf8d-3adea1d9cfe7.png)
 
 ## Table of Contents
 * [Usage](#usage)
